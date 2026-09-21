@@ -1,6 +1,6 @@
 # Laboratorio: Introducción a Bison
 
-**Nombre:** ___________________________
+**Nombre:** Fiorenzo Leonardo
 
 ## Verificación y calificación
 
