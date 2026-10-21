@@ -18,5 +18,8 @@ int ToInteger(const char *s);
 
 /* TODO: agregar una operacion a definir libremente.
  * Documentar Pre, Post y firma antes del prototipo. */
-
+/* ToDigit: Char -> Integer
+ * Pre:  c digito decimal ('0'-'9')
+ * Post: devuelve el valor entero correspondiente al digito */
+int ToDigit(char c);
 #endif

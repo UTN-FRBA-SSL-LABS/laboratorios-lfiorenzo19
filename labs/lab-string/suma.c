@@ -12,7 +12,10 @@
  */
 
 int main(int argc, char *argv[]) {
-    (void)argc; (void)argv;
-    /* TODO */
+    (void)argc;
+    int sumaTotal = 0;
+    for (char **arg = argv + 1; *arg != NULL; arg++)
+        sumaTotal += ToInteger(*arg);
+    printf("%d\n", sumaTotal);
     return 0;
 }
